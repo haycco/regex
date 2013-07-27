@@ -1,0 +1,37 @@
+/***********************************************************************
+ * Copyright (C) haycco All rights reserved.
+ * @author: haycco
+ * Date: 2012/12/12
+ **********************************************************************/
+:link,:visited {text-decoration: none;}
+ul,ol {list-style: none;}
+h1,h2,h3,h4,h5,h6,pre,code,p {font-size:1em; font-weight:normal;}
+img, dl,dd,dt,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,body,html,p,blockquote,fieldset,input {margin: 0; padding: 0;}
+img, a img,:link img,:visited img {border: none;}
+th {text-align:left; font-weight:normal;}
+.clear {clear:both;}
+
+form {margin:0 auto; padding:1em; background-color:#fff;}
+
+form label {width:6em; float:left; font-family:'Î¢ÈíÑÅºÚ', Arial, Helvetica, sans-serif;}
+form label.chk {width:6em; font-family:'Î¢ÈíÑÅºÚ', Arial, Helvetica, sans-serif;}
+form div {clear:both; margin:1%;}
+input.ok {color:#fff; padding:5px 20px 5px 0; background:#00CC00 url(images/ok.jpg) no-repeat top right; }
+input.fail {color:#fff; padding:5px 20px 5px 0; background:#990000 url(images/fail.jpg) no-repeat top right;}
+input#txtREGEX, input#txtTest1, input#txtTest2 {width:22em; }
+
+h1 {font-weight:bold; font-size:2.4em; text-transform:uppercase; text-align:center;}			
+h2 {font-weight:bold; font-size:1.1em;}
+
+div#app {clear:both;width:630px; margin:0 auto;}
+div#app label, div#app input {font-size:1.3em; padding:5px;}
+div#btns {clear:both;}
+
+div#tip {padding:1em; line-height:22px; font-family:'Î¢ÈíÑÅºÚ', Arial, Helvetica, sans-serif;}
+div#tip dt {font-weight:bold; font-size:1.1em; padding-top:8px;}
+div#tip dd {padding:0 1em;}
+div#tip ol {list-style-type:decimal; margin-left:30px;}
+div#tip ol li {border-bottom: 1px solid #444; margin-bottom:5px;}
+.regex {font-weight: bold; display: inline-block; padding:0 5px 0 5px; color:green;}
+
+div.copyright{float:left; text-align:center; width:99%; margin:10px; bottom:0; font: 12px/1.125 'Î¢ÈíÑÅºÚ', Arial, Helvetica, sans-serif;}
